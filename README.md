@@ -28,28 +28,15 @@ Add CORS extension to your browser, Cross-origin resource sharing - is a mechani
    - package-lock.json
    - server.js
    
-### Break down into end to end tests
-
-Explain what these tests test and why
+### Intructions on how to run the application
 
 ```
-Give an example
+- Open the project folder in the IDE 
+- In the integrated terminal type in node server.js (this will start the server and display the port number)
+- Try to off the CORS extension 
+- Now open index.html, to check the output with web server port:8080  
+- Then, ON the CORS extension, this will help you to get the user information. 
+
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
