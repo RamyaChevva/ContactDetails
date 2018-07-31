@@ -1,0 +1,24 @@
+{
+  "name": "contactinformation",
+  "version": "1.0.0",
+  "description": "contact information",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "start": "node app/server.js",
+    "start:dev": "browser-sync start --server {baseDir: 'app',  directory: true} --files ['app/**/*.*'] "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-resource": "^1.7.2",
+    "angular-route": "^1.7.2",
+    "angular-ui-router": "^1.0.19",
+    "bootstrap": "^4.1.2",
+    "express": "^4.16.3"
+  }
+}
