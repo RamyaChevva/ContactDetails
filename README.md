@@ -18,17 +18,17 @@ Add CORS extension to your browser, Cross-origin resource sharing - is a mechani
  - app
    - scripts
      - app.js
-     - controllers.js
+     - controllers.j
      - services.js
    - views
      - home.html
     - index.html
  - node_modules (library root)
-   - package.json
-   - package-lock.json
-   - server.js
+ - package.json
+ - package-lock.json
+ - server.js
    
-### Intructions on how to run the application
+### Instructions on how to run the application
 
 ```
 - Open the project folder in the IDE 
